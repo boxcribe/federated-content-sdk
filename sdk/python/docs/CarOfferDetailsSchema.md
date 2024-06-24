@@ -1,0 +1,35 @@
+# CarOfferDetailsSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**offer_id** | **str** | Unique identifier for the car offer. | [optional] 
+**supplier_offer_id** | **str** | Unique identifier for the supplier’s offer. | [optional] 
+**offer_index** | **int** | Index of the offer for sorting purposes. | [optional] 
+**offer_tax** | **float** | Tax applied to the offer. | [optional] 
+**offer_price** | **float** | Price of the offer. | [optional] 
+**offer_currency** | **str** | Currency of the offer price. | [optional] 
+**offer_cancelation_policies** | **object** | Cancellation policies applicable to the offer. | [optional] 
+**pickup_date** | **date** | Scheduled date for car pickup. | [optional] 
+**pickup_time** | **str** | Scheduled time for car pickup. | [optional] 
+**dropoff_date** | **date** | Scheduled date for car dropoff. | [optional] 
+**dropoff_time** | **str** | Scheduled time for car dropoff. | [optional] 
+**car_name** | **str** | Name of the car model. | [optional] 
+**car_description** | **str** | Description of the car. | [optional] 
+**car_address** | **str** | Address where the car can be picked up. | [optional] 
+**car_latitude** | **float** | Latitude of the car pickup location. | [optional] 
+**car_longitude** | **float** | Longitude of the car pickup location. | [optional] 
+**car_distance** | **int** | Distance the car can be driven. | [optional] 
+**car_distance_metric** | **str** | Metric system used for car distance (miles/km). | [optional] 
+**car_images** | **list[str]** | Array of images of the car. | [optional] 
+**car_rating** | **float** | Rating of the car based on user reviews. | [optional] 
+**car_reviews** | **int** | Number of reviews for the car. | [optional] 
+**car_type** | **str** | Type of the car (e.g., sedan, SUV). | [optional] 
+**car_class** | **str** | Class of the car (e.g., economy, luxury). | [optional] 
+**car_company** | **str** | Company owning the car or rental service. | [optional] 
+**car_company_logo** | **str** | Logo of the company owning the car. | [optional] 
+**car_passengers_number** | **int** | Number of passengers the car can hold. | [optional] 
+**car_bags_number** | **int** | Number of bags the car can hold. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

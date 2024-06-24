@@ -1,0 +1,30 @@
+# EventOfferResponseItemSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**offerId** | [**UUID**](UUID.md) | Unique identifier for the offer. |  [optional]
+**supplierOfferId** | [**UUID**](UUID.md) | Unique identifier for the supplier’s offer. |  [optional]
+**offerIndex** | [**BigDecimal**](BigDecimal.md) | Index of the offer for sorting purposes. |  [optional]
+**offerTax** | [**BigDecimal**](BigDecimal.md) | Tax applied to the offer. |  [optional]
+**offerPrice** | [**BigDecimal**](BigDecimal.md) | Price of the offer. |  [optional]
+**offerCurrency** | **String** | Currency of the offer price. |  [optional]
+**offerCancelationPolicies** | **String** | Cancellation policies applicable to the offer. |  [optional]
+**date** | [**LocalDate**](LocalDate.md) | Date of the event. |  [optional]
+**adults** | [**BigDecimal**](BigDecimal.md) | Number of adults involved in the event. |  [optional]
+**children** | [**BigDecimal**](BigDecimal.md) | Number of children involved in the event. |  [optional]
+**eventName** | **String** | Name of the event. |  [optional]
+**eventDescription** | **String** | Description of the event. |  [optional]
+**eventAddress** | **String** | Address where the event will take place. |  [optional]
+**eventLatitude** | **Float** | Latitude of the event location. |  [optional]
+**eventLongitude** | **Float** | Longitude of the event location. |  [optional]
+**eventDistance** | [**BigDecimal**](BigDecimal.md) | Distance to the event from a reference point. |  [optional]
+**eventDistanceMetric** | **String** | Metric used to measure the distance to the event. |  [optional]
+**eventImages** | **List&lt;String&gt;** | Images of the event. |  [optional]
+**eventRating** | [**BigDecimal**](BigDecimal.md) | Rating of the event. |  [optional]
+**eventReviews** | **List&lt;String&gt;** | Reviews of the event. |  [optional]
+**eventVenue** | **String** | Venue where the event will take place. |  [optional]
+**eventVenueCapacity** | [**BigDecimal**](BigDecimal.md) | Capacity of the venue. |  [optional]
+**eventPerformers** | **List&lt;String&gt;** | Performers at the event. |  [optional]
+**eventSubcategories** | **List&lt;String&gt;** | Subcategories of the event. |  [optional]
+**bookingQuestions** | **List&lt;String&gt;** | Questions related to booking the event. |  [optional]

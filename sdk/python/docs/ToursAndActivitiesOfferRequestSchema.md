@@ -1,0 +1,30 @@
+# ToursAndActivitiesOfferRequestSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**location_latitude** | **float** | Latitude for the location. | [optional] 
+**location_longitude** | **float** | Longitude for the location. | [optional] 
+**location_radius** | **float** | Radius to search for tours and activities from the specified location. | [optional] 
+**start_date** | **date** | Starting date for tours and activities. | [optional] 
+**end_date** | **date** | Ending date for tours and activities. | [optional] 
+**adults** | **int** | Number of adults participating. | [optional] 
+**children** | **int** | Number of children participating. | [optional] 
+**filter_by_keyword** | **str** | Keyword to filter tours and activities. | [optional] 
+**filter_by_price_min** | **float** | Minimum price filter. | [optional] 
+**filter_by_price_max** | **float** | Maximum price filter. | [optional] 
+**filter_by_distance_min** | **int** | Minimum distance filter. | [optional] 
+**filter_by_distance_max** | **int** | Maximum distance filter. | [optional] 
+**filter_by_rating_min** | **int** | Minimum rating filter. | [optional] 
+**filter_by_rating_max** | **int** | Maximum rating filter. | [optional] 
+**filter_by_subcategories** | **list[str]** | Subcategories to filter tours and activities. | [optional] 
+**sort_by** | **str** | Criteria to sort the search results. | [optional] 
+**sort_order** | **str** | Order to sort the results (ascending or descending). | [optional] 
+**page** | **int** | Page number for pagination. | [optional] 
+**limit** | **int** | Number of items per page. | [optional] 
+**language** | **str** | Language of the tour offers. | [optional] 
+**currency** | **str** | Currency in which prices are displayed. | [optional] 
+**metric** | **str** | Unit for distance measurement (mi/km) used in filters. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

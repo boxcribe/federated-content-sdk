@@ -1,0 +1,30 @@
+# HotelOfferResponseItemSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**offerId** | [**UUID**](UUID.md) | Unique identifier for the hotel offer. |  [optional]
+**supplierOfferId** | [**UUID**](UUID.md) | Unique identifier given by the supplier for the hotel offer. |  [optional]
+**offerIndex** | **Integer** | Index number of the offer for sorting and referencing purposes. |  [optional]
+**offerTax** | **Double** | Applicable tax amount for the offer. |  [optional]
+**offerPrice** | **Double** | Total price of the hotel offer. |  [optional]
+**offerCurrency** | **String** | Currency in which the offer price is denominated. |  [optional]
+**offerCancellationPolicies** | **Object** | Details of the cancellation policies applicable to the offer. |  [optional]
+**checkinDate** | [**LocalDate**](LocalDate.md) | Scheduled check-in date for the hotel stay. |  [optional]
+**checkoutDate** | [**LocalDate**](LocalDate.md) | Scheduled check-out date for the hotel stay. |  [optional]
+**hotelName** | **String** | Name of the hotel. |  [optional]
+**hotelDescription** | **String** | Description of the hotel. |  [optional]
+**hotelAddress** | **String** | Physical address of the hotel. |  [optional]
+**hotelLatitude** | **Float** | Geographic latitude of the hotel. |  [optional]
+**hotelLongitude** | **Float** | Geographic longitude of the hotel. |  [optional]
+**hotelDistance** | **Double** | Distance of the hotel from a central point of interest, if applicable. |  [optional]
+**hotelDistanceMetric** | **String** | Unit of measurement for the distance (e.g., km, miles). |  [optional]
+**hotelImages** | **List&lt;String&gt;** | Array of images associated with the hotel. |  [optional]
+**hotelRating** | **Float** | Overall rating of the hotel. |  [optional]
+**hotelReviews** | **Map&lt;String, Object&gt;** | Collection of reviews for the hotel. |  [optional]
+**hotelStars** | **Integer** | Star rating of the hotel. |  [optional]
+**hotelCheckinTime** | **String** | Standard check-in time at the hotel. |  [optional]
+**hotelCheckoutTime** | **String** | Standard check-out time at the hotel. |  [optional]
+**hotelFacilities** | **List&lt;String&gt;** | List of facilities available at the hotel. |  [optional]
+**hotelAmenities** | **List&lt;String&gt;** | List of amenities offered by the hotel. |  [optional]
+**hotelPolicies** | **List&lt;String&gt;** | General policies of the hotel. |  [optional]

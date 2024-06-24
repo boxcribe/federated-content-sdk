@@ -1,0 +1,15 @@
+# FlightOfferPassengerSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**passenger_id** | **str** | Unique identifier for each passenger. | [optional] 
+**type** | **str** | Type of passenger (adult, child, infant, infant with seat). | [optional] 
+**age** | **int** | Age of the passenger. | [optional] 
+**first_name** | **str** | First name of the passenger. | [optional] 
+**last_name** | **str** | Last name of the passenger. | [optional] 
+**loyalty_airline** | **str** | Airline with which the passenger has a loyalty program. | [optional] 
+**loyalty_number** | **str** | Loyalty program membership number. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,31 @@
+# CarOfferRequestSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pickupLocationLatitude** | **Float** | Latitude for car pickup location. |  [optional]
+**pickupLocationLongitude** | **Float** | Longitude for car pickup location. |  [optional]
+**pickupDate** | [**LocalDate**](LocalDate.md) | Scheduled date for car pickup. |  [optional]
+**pickupTime** | **String** | Scheduled time for car pickup. |  [optional]
+**dropoffLocationLatitude** | **Float** | Latitude for car dropoff location. |  [optional]
+**dropoffLocationLongitude** | **Float** | Longitude for car dropoff location. |  [optional]
+**dropoffDate** | [**LocalDate**](LocalDate.md) | Scheduled date for car dropoff. |  [optional]
+**dropoffTime** | **String** | Scheduled time for car dropoff. |  [optional]
+**filterByKeyword** | **String** | Keyword to filter car offers. |  [optional]
+**filterByPriceMin** | [**BigDecimal**](BigDecimal.md) | Minimum price to filter car offers. |  [optional]
+**filterByPriceMax** | [**BigDecimal**](BigDecimal.md) | Maximum price to filter car offers. |  [optional]
+**filterByDistanceMin** | **Integer** | Minimum distance filter for car offers. |  [optional]
+**filterByDistanceMax** | **Integer** | Maximum distance filter for car offers. |  [optional]
+**filterByRatingMin** | **Integer** | Minimum rating filter for car offers. |  [optional]
+**filterByRatingMax** | **Integer** | Maximum rating filter for car offers. |  [optional]
+**filterByPassengersMin** | **Integer** | Minimum passengers capacity filter for car offers. |  [optional]
+**filterByPassengersMax** | **Integer** | Maximum passengers capacity filter for car offers. |  [optional]
+**filterByType** | **List&lt;String&gt;** | Types of cars to filter by. |  [optional]
+**filterByCompany** | **List&lt;String&gt;** | Car rental companies to filter by. |  [optional]
+**sortBy** | **String** | Field to sort car offers by. |  [optional]
+**sortOrder** | **String** | Order to sort car offers (asc, desc). |  [optional]
+**page** | **Integer** | Page number for pagination. |  [optional]
+**limit** | **Integer** | Number of offers per page. |  [optional]
+**language** | **String** | Language for the offers. |  [optional]
+**currency** | **String** | Currency for the offers. |  [optional]
+**metric** | **String** | Distance metric (mi/km) used in filters. |  [optional]

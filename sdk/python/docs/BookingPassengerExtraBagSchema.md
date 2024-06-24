@@ -1,0 +1,13 @@
+# BookingPassengerExtraBagSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**passenger_id** | **str** | Identifier of the passenger with extra baggage. | [optional] 
+**leg_id** | **str** | Identifier of the flight leg associated with the extra baggage. | [optional] 
+**segment_id** | **str** | Identifier of the flight segment associated with the extra baggage. | [optional] 
+**bag_type** | **str** | Type of bag added as extra baggage. | [optional] 
+**bag_quantity** | **int** | Quantity of the extra bags. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

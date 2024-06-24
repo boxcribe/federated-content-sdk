@@ -1,0 +1,37 @@
+# SwaggerClient::TransportOfferResponseItemSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**offer_id** | **String** | Unique identifier of the offer. | [optional] 
+**supplier_offer_id** | **String** | Unique identifier for the supplier’s offer. | [optional] 
+**offer_index** | **Integer** | Index number of the offer. | [optional] 
+**offer_tax** | [**BigDecimal**](BigDecimal.md) | Applicable taxes on the offer. | [optional] 
+**offer_price** | [**BigDecimal**](BigDecimal.md) | Total price of the offer. | [optional] 
+**offer_currency** | **String** | Currency of the offer. | [optional] 
+**offer_cancelation_policies** | **String** | Cancellation policies of the offer. | [optional] 
+**pickup_date** | **Date** | Date when the transport is scheduled to be picked up. | [optional] 
+**pickup_time** | **String** | Time when the transport is scheduled to be picked up. | [optional] 
+**adults** | **Integer** | Number of adults included in the transport offer. | [optional] 
+**children** | **Integer** | Number of children included in the transport offer. | [optional] 
+**return_date** | **Date** | Date when the transport is scheduled to be returned. | [optional] 
+**return_time** | **String** | Time when the transport is scheduled to be returned. | [optional] 
+**transport_name** | **String** | Name of the transport provider or vehicle. | [optional] 
+**transport_description** | **String** | Description of the transport. | [optional] 
+**transport_address** | **String** | Address where the transport is located or where it operates. | [optional] 
+**transport_latitude** | **Float** | Latitude coordinate of the transport location. | [optional] 
+**transport_longitude** | **Float** | Longitude coordinate of the transport location. | [optional] 
+**transport_distance** | [**BigDecimal**](BigDecimal.md) | Distance covered by the transport offer. | [optional] 
+**transport_distance_metric** | **String** | Metric unit for transport distance (e.g., kilometers, miles). | [optional] 
+**transport_images** | **Array&lt;String&gt;** | Collection of images of the transport. | [optional] 
+**transport_rating** | [**BigDecimal**](BigDecimal.md) | Rating of the transport. | [optional] 
+**transport_reviews** | **Array&lt;String&gt;** | Reviews for the transport. | [optional] 
+**transport_type** | **String** | Type of transport (e.g., car, van, scooter). | [optional] 
+**transport_class** | **String** | Class of the transport (e.g., economy, luxury). | [optional] 
+**transport_company** | **String** | Company providing the transport. | [optional] 
+**transport_company_logo** | **String** | Logo of the company providing the transport. | [optional] 
+**transport_passengers_number** | **Integer** | Number of passengers the transport can accommodate. | [optional] 
+**transport_bags_number** | **Integer** | Number of bags the transport can accommodate. | [optional] 
+**transport_amenities** | **Array&lt;String&gt;** | List of amenities provided with the transport. | [optional] 
+**booking_questions** | **Array&lt;String&gt;** | Questions related to booking the transport. | [optional] 
+
